@@ -17,6 +17,18 @@ h1 {
 
 .control-panel {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backend-info {
+  font-size: 14px;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
 
 .spawn-button {
